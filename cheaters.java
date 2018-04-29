@@ -14,6 +14,7 @@ public class cheaters {
 			  matrixCount++;
 		  }
 		}
+		commonPhrases = new int[matrixCount][matrixCount];
 		
 		//Iterate through files
 		if (directoryListing != null) {
