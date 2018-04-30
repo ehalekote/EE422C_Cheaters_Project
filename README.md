@@ -1,6 +1,6 @@
 # EE422C_Cheaters_Project
 
-First, we create a map where we assign each essay a number. For example, the first essay in a folder of essays would be 1, the next would be 2, etc.  In the map, the key is the file number and the value is the file's name. There are K essays in a folder.
+First, we create a map where we assign each essay a number. For example, the first essay in a folder of essays would be 1, the next would be 2, etc.  In the map, the key is the file number and the value is the file's name. There are K essays in a folder. This allows for us to easier generate the final list of cheaters. 
 
 We then create a K x K matrix where we store the number of matches between essays.
 
