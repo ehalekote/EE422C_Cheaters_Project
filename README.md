@@ -4,7 +4,7 @@ First, we create a map where we assign each essay a number. For example, the fir
 
 We then create a K x K matrix (initialized with all -1s) where we store the number of matches between essays.
 
-In the two outermost for-loops of our program, we compare each essay with all the essays that follow it. In this way, we fill out the upper right triangle of our matrix. Every time we need to compare an essay (we will call it the fixed one) against the ones that follow, we clear the single hashmap we are using and repopulate it. Then we loop through the non-fixed essays that follow, using the containsKey() method for HashMaps to see if there are matching phrases between the essays. 
+In the two outermost for-loops of our program, we compare each essay with all the essays that follow it. In this way, we fill out the upper right triangle of our matrix. Every time we need to compare an essay (we will call it the fixed one) against the ones that follow, we clear the single HashMap we are using and repopulate it. Then we loop through the non-fixed essays that follow, using HashMap's containsKey() method to see if there are matching phrases between the essays. 
 
 In our HashMap, the key is determined by adding up the hash codes for each word in the phrase, obtained using String's hashCode() method. The value is the phrase itself, which ends up not being used. 
 
