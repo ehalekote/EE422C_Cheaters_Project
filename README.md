@@ -8,3 +8,4 @@ In the two outermost for-loops of our program, we compare each essay with all th
 
 In our HashMap, the key is determined by adding up the hash codes for each word in the phrase, obtained using String's hashCode() method. The value is the phrase itself, which ends up not being used. 
 
+We suspect there are a few bugs due to the following characters: ÒÓÔÕ. 
